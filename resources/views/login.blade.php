@@ -4,21 +4,21 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Admin KuPintar</title>
+    <title>Toko Buku Online Login</title>
     <link rel="stylesheet" href="{{ asset ('assets/vendors/mdi/css/materialdesignicons.min.css') }}" />
     <link rel="stylesheet" href="{{ asset ('assets/vendors/flag-icon-css/css/flag-icon.min.css' ) }}"/>
     <link rel="stylesheet" href="{{ asset ('assets/vendors/css/vendor.bundle.base.css' ) }}"/>
     <link rel="stylesheet" href="{{ asset ('assets/vendors/font-awesome/css/font-awesome.min.css') }}" />
     <link rel="stylesheet" href="{{ asset ('assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css') }}" />
     <link rel="stylesheet" href="{{ asset ('assets/css/style.css' ) }}"/>
-    <link rel="shortcut icon" href="{{ asset ('assets/images/favicon.png' ) }}"/>
+    <link rel="shortcut icon" href="{{ asset ('assets/images/tbonline.png' ) }}"/>
   </head>
   <body>
   <div>
               <div class="col-md-6 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">Login Kupintar</h4>
+                    <h4 class="card-title">Login Toko Buku Online</h4>
                     <form class="forms-sample"action="{{url('auth-login')}}" method="post" >
                     @csrf
                       <div class="form-group">
